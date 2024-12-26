@@ -10,9 +10,10 @@ import lombok.ToString;
 public class BoardDTO {
     private Long id;
     private String boardWriter;
-    private String BoardPass;
-    private String BoardTitle;
-    private String BoardContents;
-    private int BoardHits;
+    private String boardPass;
+    private String boardTitle;
+    private String boardContents;
+    private int boardHits;
+    private String createAt;
 
 }
